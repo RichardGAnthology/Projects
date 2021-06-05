@@ -5,7 +5,7 @@ const panels = document.querySelectorAll('.panel')
 panels.forEach(panel => {
     //on every click on a class titled panel a function will be executed -
     panel.addEventListener('click', () => {
-        //the function to be excuted on every click is RemoveActiveClasses which 
+        //the function to be executed on every click is RemoveActiveClasses which 
         //defined on line
         removeActiveClasses()
         //on every click a class 'active' will be added to the class 'panel'
@@ -17,7 +17,7 @@ panels.forEach(panel => {
 function removeActiveClasses(){
     //for loop where an action is executed for each array element.
     panels.forEach(panel => {
-        //the action to be exexcuted is a remove method of the class 'active'
+        //the action to be executed is a remove method of the class 'active'
         //from the class panel. 
         panel.classList.remove('active')
     })
