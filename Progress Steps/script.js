@@ -33,6 +33,7 @@ function update() {
   //with the index of the next circle. If the index is lower, it will
   //update the state to active. If not, it will remove the active state.
   //currentActive is set to 1 - line 9.
+  //test
   circles.forEach((circle, index) => {
     if (index < currentActive) {
       circle.classList.add("active");
